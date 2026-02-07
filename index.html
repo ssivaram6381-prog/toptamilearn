@@ -3,112 +3,120 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Top Tamil Earn 100K</title>
+<title>Top Tamil Earn 100k</title>
+
+<!-- Telegram icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
 body{
-  margin:0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(180deg,#0e2a2f,#133c42);
-  color:#fff;
-  text-align:center;
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg,#0f2a33,#0b1f26);
+    color:#fff;
+    text-align:center;
 }
 
 .container{
-  padding:20px;
+    max-width:420px;
+    margin:20px auto;
+    padding:20px;
 }
 
-.logo{
-  width:180px;
-  border-radius:20px;
-  border:5px solid #f5c400;
-  margin-bottom:20px;
+/* 🔵 LOGO CIRCLE + ANIMATION */
+.logo-wrap{
+    width:200px;
+    height:200px;
+    margin:0 auto 10px;
+    border-radius:50%;
+    padding:6px;
+    background:linear-gradient(45deg,#00d4ff,#ffc400);
+    animation: rotate 6s linear infinite;
 }
 
-h1{
-  color:#f5c400;
-  font-size:26px;
-  margin-bottom:5px;
+@keyframes rotate{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
 }
 
-.subtitle{
-  opacity:0.9;
-  margin-bottom:20px;
-}
-
-.features{
-  background:#0f2e33;
-  padding:15px;
-  border-radius:15px;
-  text-align:left;
-  max-width:360px;
-  margin:0 auto 25px;
-}
-
-.features p{
-  margin:8px 0;
-  font-size:15px;
-}
-
-.join-box{
-  position:relative;
-  display:inline-block;
-}
-
-/* JOIN BUTTON */
-.join-btn{
-  background:#1da1f2;
-  color:#fff;
-  font-size:20px;
-  padding:16px 26px;
-  border-radius:50px;
-  border:none;
-  cursor:pointer;
-  display:flex;
-  align-items:center;
-  gap:10px;
-  animation:pulse 1.6s infinite;
-}
-
-.join-btn a{
-  color:white;
-  text-decoration:none;
-  display:flex;
-  align-items:center;
-  gap:10px;
-}
-
-/* TELEGRAM ICON (NO IMAGE) */
-.tg-icon{
-  font-size:26px;
-}
-
-/* HAND ANIMATION (BIG) */
-.hand{
-  position:absolute;
-  right:-65px;
-  bottom:-12px;
-  font-size:70px;
-  animation:tap 1s infinite;
-}
-
-/* animations */
-@keyframes tap{
-  0%{transform:translateX(0);}
-  50%{transform:translateX(14px);}
-  100%{transform:translateX(0);}
+.logo-wrap img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    background:#fff;
+    animation:pulse 1.5s infinite;
 }
 
 @keyframes pulse{
-  0%{box-shadow:0 0 0 0 rgba(29,161,242,0.7);}
-  70%{box-shadow:0 0 0 18px rgba(29,161,242,0);}
-  100%{box-shadow:0 0 0 0 rgba(29,161,242,0);}
+    0%{transform:scale(1);}
+    50%{transform:scale(1.05);}
+    100%{transform:scale(1);}
 }
 
+/* Title */
+h1{
+    color:#ffc400;
+    margin:15px 0 5px;
+}
+
+.subtitle{
+    font-size:16px;
+    opacity:0.9;
+}
+
+/* Features box */
+.features{
+    background:#132f38;
+    border-radius:15px;
+    padding:15px;
+    margin:20px 0;
+    text-align:left;
+}
+.features p{
+    margin:8px 0;
+    font-size:15px;
+}
+
+/* 👇 HAND animation ABOVE button */
+.hand{
+    font-size:55px;
+    margin:15px 0 5px;
+    animation:tap 1.2s infinite;
+}
+
+@keyframes tap{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(10px);}
+    100%{transform:translateY(0);}
+}
+
+/* Telegram Button */
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    background:#0ea5e9;
+    color:#fff;
+    padding:15px;
+    border-radius:40px;
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    animation:glow 1.5s infinite;
+}
+
+@keyframes glow{
+    0%{box-shadow:0 0 0 0 rgba(14,165,233,0.7);}
+    70%{box-shadow:0 0 0 22px rgba(14,165,233,0);}
+    100%{box-shadow:0 0 0 0 rgba(14,165,233,0);}
+}
+
+/* Footer */
 .footer{
-  margin-top:20px;
-  font-size:13px;
-  opacity:0.8;
+    font-size:13px;
+    opacity:0.7;
+    margin-top:15px;
 }
 </style>
 </head>
@@ -117,36 +125,35 @@ h1{
 
 <div class="container">
 
-  <!-- LOGO -->
-  <img src="logo.png.jpg" class="logo">
+    <!-- LOGO -->
+    <div class="logo-wrap">
+        <img src="logo.png.jpg" alt="Logo">
+    </div>
 
-  <h1>💰 Top தமிழ் Earn 100K 💰</h1>
-  <div class="subtitle">Trusted Tamil Telegram Community 🚀</div>
+    <h1>💰 Top தமிழ் Earn 100k 💰</h1>
+    <div class="subtitle">Trusted Tamil Telegram Community 🚀</div>
 
-  <!-- FEATURES -->
-  <div class="features">
-    <p>🎰 Daily Slots Game Upload</p>
-    <p>📺 Live Play Videos</p>
-    <p>💸 Daily Withdraw Proof</p>
-    <p>📊 Real Winning Screenshots</p>
-    <p>🔥 Tips & Tricks (Tamil)</p>
-    <p>🧠 Beginner Friendly Guide</p>
-  </div>
+    <div class="features">
+        <p>🎰 Daily Slots Game Upload</p>
+        <p>📺 Live Play Videos</p>
+        <p>💸 Daily Withdraw Proof</p>
+        <p>📊 Real Winning Screenshots</p>
+        <p>🔥 Tips & Tricks (Tamil)</p>
+        <p>🧠 Beginner Friendly Guide</p>
+    </div>
 
-  <!-- JOIN BUTTON -->
-  <div class="join-box">
-    <button class="join-btn">
-      <a href="https://t.me/toptamilearning100k" target="_blank">
-        <span class="tg-icon">✈️</span>
+    <!-- HAND -->
+    <div class="hand">👇</div>
+
+    <!-- BUTTON -->
+    <a class="btn" href="https://t.me/toptamilearning100k" target="_blank">
+        <i class="fa-brands fa-telegram"></i>
         JOIN TELEGRAM NOW
-      </a>
-    </button>
-    <div class="hand">👉</div>
-  </div>
+    </a>
 
-  <div class="footer">
-    ⚠️ Educational purpose only. No guaranteed income.
-  </div>
+    <div class="footer">
+        ⚠ Educational purpose only. No guaranteed income.
+    </div>
 
 </div>
 
