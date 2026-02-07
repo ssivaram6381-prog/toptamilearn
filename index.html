@@ -1,95 +1,114 @@
 <!DOCTYPE html>
-<html lang="ta">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Top தமிழ் Earn 100k</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top Tamil Earn 100K</title>
 
 <style>
 body{
   margin:0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-  color:#ffffff;
+  background: linear-gradient(180deg,#0e2a2f,#133c42);
+  color:#fff;
   text-align:center;
 }
+
 .container{
-  padding:22px 15px 30px;
-}
-.logo img{
-  width:160px;
-  max-width:90%;
-  border-radius:16px;
-  border:4px solid #ffcc00;
-  background:#fff;
-}
-h1{
-  margin:18px 0 6px;
-  color:#ffcc00;
-  font-size:26px;
-}
-.subtitle{
-  font-size:17px;
-  margin-bottom:16px;
-}
-.points{
-  background:rgba(0,0,0,0.35);
-  border-radius:14px;
-  padding:16px;
-  margin:18px auto 22px;
-  text-align:left;
-  max-width:420px;
-}
-.points p{
-  font-size:16px;
-  margin:10px 0;
+  padding:20px;
 }
 
-/* TELEGRAM BUTTON */
-.telegram-wrap{
+.logo{
+  width:180px;
+  border-radius:20px;
+  border:5px solid #f5c400;
+  margin-bottom:20px;
+}
+
+h1{
+  color:#f5c400;
+  font-size:26px;
+  margin-bottom:5px;
+}
+
+.subtitle{
+  opacity:0.9;
+  margin-bottom:20px;
+}
+
+.features{
+  background:#0f2e33;
+  padding:15px;
+  border-radius:15px;
+  text-align:left;
+  max-width:360px;
+  margin:0 auto 25px;
+}
+
+.features p{
+  margin:8px 0;
+  font-size:15px;
+}
+
+.join-box{
   position:relative;
   display:inline-block;
 }
-.telegram-btn{
+
+/* JOIN BUTTON */
+.join-btn{
+  background:#1da1f2;
+  color:#fff;
+  font-size:20px;
+  padding:16px 26px;
+  border-radius:50px;
+  border:none;
+  cursor:pointer;
   display:flex;
   align-items:center;
-  justify-content:center;
   gap:10px;
-  width:90%;
-  max-width:360px;
-  margin:0 auto;
-  padding:18px 14px;
-  background:linear-gradient(135deg,#0088cc,#00b0ff);
-  color:white;
-  font-size:20px;
-  font-weight:bold;
-  text-decoration:none;
-  border-radius:16px;
-}
-.telegram-btn img{
-  width:26px;
-  height:26px;
+  animation:pulse 1.6s infinite;
 }
 
-/* HAND ANIMATION */
+.join-btn a{
+  color:white;
+  text-decoration:none;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+/* TELEGRAM ICON (NO IMAGE) */
+.tg-icon{
+  font-size:26px;
+}
+
+/* HAND ANIMATION (BIG) */
 .hand{
   position:absolute;
-  right:-20px;
-  bottom:-18px;
-  font-size:34px;
-  animation: tap 1.2s infinite;
+  right:-65px;
+  bottom:-12px;
+  font-size:70px;
+  animation:tap 1s infinite;
 }
 
+/* animations */
 @keyframes tap{
-  0%{ transform:translateY(0); }
-  50%{ transform:translateY(10px); }
-  100%{ transform:translateY(0); }
+  0%{transform:translateX(0);}
+  50%{transform:translateX(14px);}
+  100%{transform:translateX(0);}
+}
+
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 rgba(29,161,242,0.7);}
+  70%{box-shadow:0 0 0 18px rgba(29,161,242,0);}
+  100%{box-shadow:0 0 0 0 rgba(29,161,242,0);}
 }
 
 .footer{
-  margin-top:18px;
+  margin-top:20px;
   font-size:13px;
-  opacity:0.85;
+  opacity:0.8;
 }
 </style>
 </head>
@@ -99,30 +118,29 @@ h1{
 <div class="container">
 
   <!-- LOGO -->
-  <div class="logo">
-    <img src="logo.png.jpg" alt="Top Tamil Earn 100k Logo">
+  <img src="logo.png.jpg" class="logo">
+
+  <h1>💰 Top தமிழ் Earn 100K 💰</h1>
+  <div class="subtitle">Trusted Tamil Telegram Community 🚀</div>
+
+  <!-- FEATURES -->
+  <div class="features">
+    <p>🎰 Daily Slots Game Upload</p>
+    <p>📺 Live Play Videos</p>
+    <p>💸 Daily Withdraw Proof</p>
+    <p>📊 Real Winning Screenshots</p>
+    <p>🔥 Tips & Tricks (Tamil)</p>
+    <p>🧠 Beginner Friendly Guide</p>
   </div>
 
-  <h1>💰 Top தமிழ் Earn 100k 💰</h1>
-  <div class="subtitle">
-    Trusted Tamil Telegram Community 🚀
-  </div>
-
-  <div class="points">
-    <p>🎰 <b>Daily Slots Game Upload</b></p>
-    <p>📹 <b>Live Play Videos</b></p>
-    <p>💸 <b>Daily Withdraw Proof</b></p>
-    <p>📊 <b>Real Winning Screenshots</b></p>
-    <p>🔥 <b>Tips & Tricks (Tamil)</b></p>
-    <p>🧠 <b>Beginner Friendly Guide</b></p>
-  </div>
-
-  <!-- TELEGRAM BUTTON WITH HAND -->
-  <div class="telegram-wrap">
-    <a class="telegram-btn" href="https://t.me/toptamilearning100k" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
-      JOIN TELEGRAM NOW
-    </a>
+  <!-- JOIN BUTTON -->
+  <div class="join-box">
+    <button class="join-btn">
+      <a href="https://t.me/toptamilearning100k" target="_blank">
+        <span class="tg-icon">✈️</span>
+        JOIN TELEGRAM NOW
+      </a>
+    </button>
     <div class="hand">👉</div>
   </div>
 
@@ -134,4 +152,3 @@ h1{
 
 </body>
 </html>
-
