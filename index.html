@@ -51,10 +51,13 @@ body{
 }
 
 /* TITLE */
-h1{
+  h1{
   color:#ffd000;
   margin:15px 0 4px;
-}
+  white-space: nowrap;   /* 👈 ore line-ku */
+  text-align: center;
+  font-size: 22px;
+  }
 .subtitle{
   opacity:.9;
   margin-bottom:20px;
@@ -68,6 +71,11 @@ h1{
   border-radius:15px;
   text-align:left;
 }
+  @media (max-width: 480px){
+  h1{
+    font-size: 20px;
+  }
+  }
 .box p{
   margin:10px 0;
   font-size:16px;
